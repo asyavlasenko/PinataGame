@@ -4,9 +4,11 @@
 #include <sstream>
 
 int dp(int left, int right, const std::vector<int>& pinatas, std::vector<std::vector<int>>& memo) {
-    if (left > right) return 0;
+    if (left > right) 
+        return 0;
 
-    if (memo[left][right] != -1) return memo[left][right];
+    if (memo[left][right] != -1) 
+        return memo[left][right];
 
     int maxCandies = 0;
     for (int i = left; i <= right; ++i) {
