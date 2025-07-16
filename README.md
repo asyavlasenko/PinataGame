@@ -15,17 +15,11 @@ In this exciting tool, you're given a sequence of pinatas, each with a candy val
 
 ---
 
-## Problem Objective
+## How to Run
 
-🎯 Smash pinatas in an optimal order to collect the most candies.
-
-🍭 When you smash pinata `i`, you get:  
-`left * current * right` candies.  
-Where:
-- `left` is the value of the pinata on the left (`1` if out of bounds),
-- `right` is the value on the right (`1` if out of bounds).
-
-🧠 Uses memoization (DP) to ensure optimal performance.
+```plaintext
+g++ -std=c++11 -o pinata Pinata.cpp 
+./pinata
 
 ---
 
