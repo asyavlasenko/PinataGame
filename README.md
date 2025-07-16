@@ -46,4 +46,3 @@ Where:
 Enter the number of pinatas: 4  
 Enter pinatas values separated by spaces: 3 1 5 8  
 🎉 Max candies you can get: 167 🎉
-# PinataGame
