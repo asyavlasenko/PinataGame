@@ -15,20 +15,6 @@ In this exciting tool, you're given a sequence of pinatas, each with a candy val
 
 ---
 
-## Problem Objective
-
-🎯 Smash pinatas in an optimal order to collect the most candies.
-
-🍭 When you smash pinata `i`, you get:  
-`left * current * right` candies.  
-Where:
-- `left` is the value of the pinata on the left (`1` if out of bounds),
-- `right` is the value on the right (`1` if out of bounds).
-
-🧠 Uses memoization (DP) to ensure optimal performance.
-
----
-
 ## Controls (CLI Input)
 
 - 📥 Input:  
