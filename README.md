@@ -28,6 +28,30 @@ In this exciting tool, you're given a sequence of pinatas, each with a candy val
 
 ## How to Run
 
-```plaintext
+```bash
 g++ -std=c++11 -o pinata Pinata.cpp
 ./pinata
+```
+
+Example:
+```plaintext
+Enter the number of pinatas: 4
+Enter pinatas values separated by spaces: 3 1 5 8
+Max candies you can get: 167
+```
+
+---
+
+## 🧮 Time Complexity (Big O)
+
+This solution uses **top-down dynamic programming** with memoization.
+
+- Total subproblems: `O(n^2)`
+- Each subproblem iterates over a range → `O(n)`
+- Therefore, overall time complexity: **O(n³)**
+
+> Where `n` is the number of pinatas.
+
+Although cubic time may seem high, it performs efficiently for moderate input sizes (`n <= 200`) due to memoization and recursion pruning.
+
+---
